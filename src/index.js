@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import styled from "styled-components";
+import {GlobalStyle} from "./GlobalStyle";
 
 // import "./styles.css";
 
@@ -19,9 +20,12 @@ const Wrapper = styled.section`
 
 function App() {
   return (
-    <Wrapper>
-      <Title>Hello World!</Title>
-    </Wrapper>
+    <>
+      <GlobalStyle />
+      <Wrapper>
+        <Title>Hello World!</Title>
+      </Wrapper>
+    </>
   );
 }
 
