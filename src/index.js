@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { GlobalStyle } from "./GlobalStyle";
 import { HelloWorld } from "./components/HelloWorld";
 import Button from "./components/Button"
-import TomtatoButton from "./components/TomatoButton"
+import TomatoButton from "./components/TomatoButton"
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
       <HelloWorld />
       <Button> Button </Button>
       <Button primary> Button </Button>
-      <TomtatoButton> Button </TomtatoButton>
+      <TomatoButton> Button </TomatoButton>
+      <TomatoButton as="a" href="/">Link with Tomato Button styles</TomatoButton>
     </>
   );
 }
