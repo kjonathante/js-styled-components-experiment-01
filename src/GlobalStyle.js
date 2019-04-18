@@ -5,5 +5,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     @import url('https://fonts.googleapis.com/css?family=Notable');
     font-family: 'Notable', sans-serif;
+    color: ${props => (props.whiteColor ? "white" : "black")};
   }
 `;

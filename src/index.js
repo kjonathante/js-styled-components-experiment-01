@@ -7,7 +7,7 @@ import { HelloWorld } from "./components/HelloWorld";
 function App() {
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyle whiteColor/>
       <HelloWorld />
     </>
   );
