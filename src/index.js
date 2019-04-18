@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import styled from "styled-components";
 import {GlobalStyle} from "./GlobalStyle";
 
-// import "./styles.css";
-
 // Create a Title component that'll render an <h1> tag with some styles
 const Title = styled.h1`
   font-size: 1.5em;
